@@ -1,4 +1,6 @@
-<script lang="ts" setup name="Layout"></script>
+<script lang="ts" setup name="Layout">
+
+</script>
 <template>
   <div>这是layout组件</div>
 </template>

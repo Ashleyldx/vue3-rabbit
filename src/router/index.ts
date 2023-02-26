@@ -7,9 +7,15 @@ const router=createRouter({
             path: '/',
             component: layout
         },
+        // login页面
         {
             path:'/login',
             component:()=>import('../views/login/index.vue')
+        },
+        // home页面
+        {
+            path:'/home',
+            component:()=>import('../views/home/index.vue')
         }
 
     ]
