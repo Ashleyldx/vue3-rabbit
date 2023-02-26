@@ -1,5 +1,8 @@
-<script lang="ts" setup name="AppHeaderNav">
+<script lang="ts" setup>
+import useStore from '@/store'
+const {category} =useStore()
 
+console.log(111111, category.money)
 
 </script>
 

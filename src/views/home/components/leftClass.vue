@@ -1,12 +1,12 @@
 <script lang="ts" setup name="Layout">
-// import useStore from '@/store/useStore'
-// const {cateGory} = useStore() // cateGory要解构出来
+import category from '@/store/modules/category'
+const {cateGory} = useStore() // cateGory要解构出来
 </script>
 <template>
   <div class="homeCategory">
     <ul class="menu">
-      <li v-for="i in 10" :key="i">
-<!--      <li v-for="item in cateGory.list" :key="item.id">-->
+<!--      <li v-for="i in 10" :key="i">-->
+      <li v-for="item in cateGory.list" :key="item.id">
         <routerLink to="/">居家</routerLink>
         <routerLink to="/">洗漱</routerLink>
         <routerLink to="/">清洁</routerLink>
