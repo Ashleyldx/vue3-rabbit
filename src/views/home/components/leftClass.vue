@@ -1,5 +1,5 @@
 <script lang="ts" setup name="Layout">
-import category from '@/store/modules/category'
+import category from '@/store/modules/category.js'
 const {cateGory} = useStore() // cateGory要解构出来
 </script>
 <template>
